@@ -1,6 +1,27 @@
 {
   "dependencies": {
     "chalk": "^5.0.0",
+    "commander": "^9.0.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "jscalc",
+  "description": "A JavaScript syntax-based calculator and comparer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redaHBZ69/JavaScript-Calculator.git"
+  },
+  "keywords": [],
+  "author": "redaHBZ",
+  "license": "MIT",
+  "bin": "index.js",
+  "bugs": {
+    "url": "https://github.com/redaHBZ69/JavaScript-Calculator/issues"
+  },
+  "homepage": "https://github.com/redaHBZ69/JavaScript-Calculator#readme"
 }
