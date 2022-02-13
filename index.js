@@ -10,8 +10,8 @@ const prompt = require("prompt-sync")({
         }
         return ret;
     }
-}),
-    { program } = require("commander");
+});
+const { program } = require("commander");
 program.option("-c", "Run the script in compare mode where you can compare 2 values AND calculate");
 program.parse();
 const opts = program.opts();
@@ -32,7 +32,7 @@ ${new chalk.Chalk().redBright("=================================================
             }
 
             const exp = prompt({ value: 0 });
-            if(!opts.c && exp.includes("bool")) {
+            if (!opts.c && exp.includes("bool")) {
                 console.log("Cannot use 'bool' outside of compare mode. Add -c to args");
                 continue;
             }
